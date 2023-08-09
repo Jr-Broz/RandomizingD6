@@ -18,8 +18,8 @@ public class MyProjectt {
         for(int i = 0; i < resposta2;i++){
         
            
-            int d7 = randomizar.nextInt(7);
-            System.out.println(d7);       
+            int d7 = randomizar.nextInt(1, 7);
+            System.out.println("The results are: " + d7);       
         } 
     }      
 }
